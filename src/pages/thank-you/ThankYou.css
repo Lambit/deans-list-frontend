@@ -1,0 +1,21 @@
+.thank-you {
+    color:#5f43b2;
+    margin: 2rem;
+    text-align: center;
+}
+
+.block {
+    background-color: #e6dde6;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 0.5rem;
+}
+
+.btn-thank {
+    background-color: #5f43b2 !important;
+    outline: none !important;
+}
+.thank-exit {
+    text-align: center;
+    margin: 1rem;
+}

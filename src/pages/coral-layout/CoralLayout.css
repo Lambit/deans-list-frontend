@@ -1,0 +1,31 @@
+.coral-data{
+    margin: .8rem;
+    border: 3px solid #5e0fff;
+    /* background-color: #c202d3; */
+    padding: 1rem;
+  }
+  
+  img.small{
+      max-height: 14rem;
+      width: 12rem;
+      margin: auto;
+      border: 1px solid black;
+  }
+  
+  
+  .coral-data-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto
+
+  }
+  
+  .coral-data-price {
+    color: black;
+  }
+
+  .catalog-button {
+    background-color: #fd2bff !important;
+    margin: 1rem;
+  }
+  

@@ -1,0 +1,14 @@
+.homepage {
+  color:#5f43b2;
+}
+
+.catalog {
+    background-color: #e6dde6;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px #fd2bff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem;
+  }

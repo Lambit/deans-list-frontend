@@ -6,9 +6,19 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.22.0",
+    "bootstrap": "^5.1.2",
+    "context": "^1.1.4",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^8.5.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
+    "react-native-square-in-app-payments": "^1.6.0",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-square-payment-form": "^0.7.2",
+    "reactstrap": "^8.10.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-responsive-select": "^7.0.4"
   }
 }

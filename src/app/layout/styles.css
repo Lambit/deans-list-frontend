@@ -1,0 +1,15 @@
+.__dml.container {
+    max-width: 700rem;
+    margin: 0 auto;
+    background-color: #010101;
+    height: 100%;
+  }
+  
+  .footer {
+    margin: 3rem;
+    padding: 2rem;
+    text-align: center;
+    color:#5f43b2;
+    border: 3px solid white;
+    height: 100%;
+  }
