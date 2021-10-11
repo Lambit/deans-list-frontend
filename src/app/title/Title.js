@@ -1,5 +1,3 @@
-import React from 'react';
-
 /* Sets Page title for websites pages. */ 
 
 export default function PageTitle({ title, description }) {

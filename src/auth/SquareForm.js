@@ -13,7 +13,7 @@ import {
 
   export const { REACT_APP_SANDBOX_ACCESS_TOKEN, REACT_APP_SANDBOX_APPLICATION_ID, REACT_APP_LOCATION_ID } = process.env;
 
-  console.log(REACT_APP_LOCATION_ID);
+ 
 
 /* Class component for Square payment form, displayed in CheckoutPage.js */ 
 class PaymentPage extends React.Component {
@@ -45,8 +45,11 @@ class PaymentPage extends React.Component {
           token: buyerVerificationToken
       })   
       });
+      console.log(request);
     } catch(e) {
+      
     }
+    
   }
   
 

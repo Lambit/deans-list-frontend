@@ -17,6 +17,7 @@ export default function ShippingForm() {
     state: "",
     email: "",
   });
+  // eslint-disable-next-line
   const [formErrors, setFormErrors] = useState([]);
 
   console.debug(
