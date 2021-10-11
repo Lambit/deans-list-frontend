@@ -11,7 +11,11 @@ import {
   import "./SquareForm.css";
 
 
-  export const { REACT_APP_SANDBOX_ACCESS_TOKEN, REACT_APP_SANDBOX_APPLICATION_ID, REACT_APP_LOCATION_ID } = process.env;
+  export const { REACT_APP_SANDBOX_ACCESS_TOKEN, 
+                REACT_APP_SANDBOX_APPLICATION_ID, 
+                REACT_APP_LOCATION_ID, 
+                REACT_APP_SQUARE_APPLICATION_ID, 
+                REACT_APP_SQUARE_ACCESS_TOKEN } = process.env;
 
   const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001/";
 
@@ -39,7 +43,7 @@ class PaymentPage extends React.Component {
       headers: {
 
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer' +  REACT_APP_SANDBOX_ACCESS_TOKEN,
+      'Authorization': 'Bearer' +  REACT_APP_SQUARE_ACCESS_TOKEN,
 
       },
       body: JSON.stringify({
@@ -79,7 +83,7 @@ class PaymentPage extends React.Component {
 
         <SquarePaymentForm
           sandbox={true}
-          applicationId={REACT_APP_SANDBOX_APPLICATION_ID}
+          applicationId={REACT_APP_SQUARE_APPLICATION_ID}
           locationId={REACT_APP_LOCATION_ID}
           cardNonceResponseReceived={this.cardNonceResponseReceived}
           createVerificationDetails={this.createVerificationDetails}
