@@ -19,7 +19,7 @@ import {
 
   const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001/";
 
- 
+console.log(REACT_APP_SQUARE_APPLICATION_ID, BASE_URL); 
 
 /* Class component for Square payment form, displayed in CheckoutPage.js */ 
 class PaymentPage extends React.Component {
