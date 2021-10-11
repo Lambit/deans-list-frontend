@@ -9,17 +9,15 @@ import {
   } from 'react-square-payment-form';
   import 'react-square-payment-form/lib/default.css';
   import "./SquareForm.css";
+  import { BASE_URL } from "../api/Api";
+  import { SAND_ID, SAND_TOKEN, LOCAL_ID } from "../api/Api";
 
 
-  export const { REACT_APP_SANDBOX_ACCESS_TOKEN, 
-                REACT_APP_SANDBOX_APPLICATION_ID, 
-                REACT_APP_LOCATION_ID, 
-                REACT_APP_SQUARE_APPLICATION_ID, 
-                REACT_APP_SQUARE_ACCESS_TOKEN } = process.env;
+  
 
-  const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001/";
+  
 
-console.log(REACT_APP_SQUARE_APPLICATION_ID, BASE_URL); 
+console.log(SAND_ID, LOCAL_ID, BASE_URL); 
 
 /* Class component for Square payment form, displayed in CheckoutPage.js */ 
 class PaymentPage extends React.Component {
@@ -43,7 +41,7 @@ class PaymentPage extends React.Component {
       headers: {
 
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer' +  REACT_APP_SQUARE_ACCESS_TOKEN,
+      'Authorization': 'Bearer' +  SAND_TOKEN,
 
       },
       body: JSON.stringify({
@@ -83,8 +81,8 @@ class PaymentPage extends React.Component {
 
         <SquarePaymentForm
           sandbox={true}
-          applicationId={REACT_APP_SQUARE_APPLICATION_ID}
-          locationId={REACT_APP_LOCATION_ID}
+          applicationId={SAND_ID}
+          locationId={LOCAL_ID}
           cardNonceResponseReceived={this.cardNonceResponseReceived}
           createVerificationDetails={this.createVerificationDetails}
         >

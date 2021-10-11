@@ -2,6 +2,12 @@ import axios from "axios";
 
 export const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
+export const SAND_TOKEN = process.env.REACT_APP_SANDBOX_ACCESS_TOKEN; 
+export const SAND_ID = process.env.REACT_APP_SANDBOX_APPLICATION_ID;
+export const LOCAL_ID = process.env.REACT_APP_LOCATION_ID;
+export const SQ_ID = process.env.REACT_APP_SQUARE_APPLICATION_ID; 
+export const SQ_TOKEN = process.env.REACT_APP_SQUARE_ACCESS_TOKEN;
+
 
 /** API Class.
  *
