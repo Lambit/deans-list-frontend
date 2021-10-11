@@ -7,7 +7,6 @@ import SignupForm from "../../auth/SignupForm";
 import Sps from "../../pages/sps/SpsCatalog";
 import Lps from "../../pages/lps/LpsCatalog";
 import Zoas from "../../pages/zoa/ZoaCatalog";
-import About from "../../pages/about/About";
 import CartPage from "../../pages/cart-checkout/CartPage";
 import CheckoutPage from "../../pages/cart-checkout/CheckoutPage";
 import ThankYouPage from "../../pages/thank-you/ThankYou";
