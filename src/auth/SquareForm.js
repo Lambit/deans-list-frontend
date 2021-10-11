@@ -13,6 +13,8 @@ import {
 
   export const { REACT_APP_SANDBOX_ACCESS_TOKEN, REACT_APP_SANDBOX_APPLICATION_ID, REACT_APP_LOCATION_ID } = process.env;
 
+  const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001/";
+
  
 
 /* Class component for Square payment form, displayed in CheckoutPage.js */ 
@@ -32,7 +34,7 @@ class PaymentPage extends React.Component {
       console.log(errors, nonce, buyerVerificationToken);
       alert("Thank you for your purchase!");
 
-      const request = await fetch("http://localhost:3001/v2/payments", {
+      const request = await fetch(`${BASE_URL}v2/payments`, {
       method: 'POST',
       headers: {
 
