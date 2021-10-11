@@ -1,5 +1,15 @@
 .homepage {
   color:#5f43b2;
+  margin: 0 auto;
+  height:auto;
+}
+
+.home-head {
+  margin-top: 3rem;
+}
+
+.lead {
+  margin-bottom: 3rem;
 }
 
 .catalog {
@@ -9,6 +19,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
+  }
+
+  .btn {
+    background-color: #5f43b2 !important;;
+  }
+
+  .welcome-back {
+    margin: 3rem;
+  }
+
+  .login {
+    margin: 3rem;
+  }
+
+  .signup {
+    margin: 3rem;
   }

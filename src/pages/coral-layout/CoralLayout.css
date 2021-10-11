@@ -1,13 +1,12 @@
 .coral-data{
-    margin: .8rem;
-    border: 3px solid #5e0fff;
-    /* background-color: #c202d3; */
-    padding: 1rem;
+    margin: 0 auto;
+    
+    align-items: center;
   }
   
   img.small{
       max-height: 14rem;
-      width: 12rem;
+      width: 16rem;
       margin: auto;
       border: 1px solid black;
   }
@@ -25,7 +24,7 @@
   }
 
   .catalog-button {
-    background-color: #fd2bff !important;
+    background-color: #5f43b2 !important;
     margin: 1rem;
   }
   

@@ -30,25 +30,25 @@ const LPSdata = {
         {
             id: '203',
             image: OAcan,
-            name: 'Orange Aussie Acan',
+            name: 'Orange Acan',
             price: '40.00',
             description: "A true orange acan with random stripes of green and teal. 1 to 3 heads per frag. If frag is not available please allow 2 weeks for coral to heal before shipping."
             
         },
         {
             id: '204',
-            image: commonBlasto,
-            name: 'Blasto',
-            price: '40.00',
-            description: "Teal center with puffy red skirt. Super hardy decent growth, start your LPS addiction here. 1 to 3 heads per frag. If frag is not available please allow 2 weeks for coral to heal before shipping."
-            
-        },
-        {
-            id: '205',
             image: pussyCat,
             name: 'Pussycat Blasto',
             price: '500.00',
             description: "The most unique and brightest blasto I have ever set my eyes upon. 1 to 2 heads per frag. If frag is not available please allow 2 weeks for coral to heal before shipping."
+            
+        },
+        {
+            id: '205',
+            image: commonBlasto,
+            name: 'Blasto',
+            price: '40.00',
+            description: "Teal center with puffy red skirt. Super hardy decent growth, start your LPS addiction here. 1 to 3 heads per frag. If frag is not available please allow 2 weeks for coral to heal before shipping."
             
         },
         {
@@ -62,7 +62,7 @@ const LPSdata = {
         {
             id: '207',
             image: OGGodzilla,
-            name: 'OG Godzilla Bounce',
+            name: 'OG Godzilla',
             price: '350.00',
             description: "Real deal OG colorful scary super cool mushroom. 1 mushroom per frag."
             
@@ -70,7 +70,7 @@ const LPSdata = {
         {
             id: '208',
             image: frankBounce,
-            name: 'Frankenstien Bounce',
+            name: 'Frankenstien',
             price: '250.00',
             description: "The hot pink outter skirt is just it man, especially when the pink bubbles start to bounce. 1 mushroom per frag."
             

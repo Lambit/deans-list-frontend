@@ -1,6 +1,8 @@
 import React from 'react';
 
-export default function Seo({ title, description }) {
+/* Sets Page title for websites pages. */ 
+
+export default function PageTitle({ title, description }) {
   document.querySelector('title').innerHTML = title;
   return null;
 }

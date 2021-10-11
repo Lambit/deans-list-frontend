@@ -22,8 +22,6 @@ import ZOAdata from "../../coral-data/ZOAdata";
  *
  * Parts of site should only be visitable when logged in. Those routes are
  * wrapped by <PrivateRoute>, which is an authorization component.
- *
- * Visiting a non-existant route redirects to the homepage.
  */
 
 function Routes(props) {
@@ -65,10 +63,6 @@ function Routes(props) {
   
             <Route exact path="/zoas">
               <Zoas ZOA={ ZOA }  />
-            </Route>
-
-            <Route exact path="/about">
-              <About />
             </Route>
 
             <Route exact path="/cart">

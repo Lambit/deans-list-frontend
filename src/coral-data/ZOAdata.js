@@ -1,4 +1,3 @@
-import AOI from "../img/WYSIWYG/AOI-2p.jpeg";
 import beautyBeast2 from "../img/WYSIWYG/BB-6p.jpeg";
 import nightmares2 from "../img/WYSIWYG/CC-nightmares-3p-2.jpeg";
 import cptAmMother from '../img/ZOAS/Capt-am.jpeg';
@@ -18,17 +17,9 @@ import horsMother from '../img/Common/HORS-common.jpeg';
 const ZOAdata = {
     ZOA: [
         {
-            id: '301',
-            image: AOI,
-            name: 'AOI',
-            price: '40.00',
-            description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
-            
-        },
-        {
             id: '302',
             image: beautyBeast2,
-            name: 'Beauty & The Beast',
+            name: 'Beauty & Beast',
             price: '30.00',
             description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
             
@@ -44,7 +35,7 @@ const ZOAdata = {
         {
             id: '304',
             image: cbzMother,
-            name: 'Caribbean Blue Zoa',
+            name: 'Blue Zoa',
             price: '10.00',
             description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
             
@@ -60,7 +51,7 @@ const ZOAdata = {
         {
             id: '306',
             image: buttkisser,
-            name: 'GB Buttkisser',
+            name: 'Buttkisser',
             price: '50.00',
             description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
             
@@ -68,7 +59,7 @@ const ZOAdata = {
         {
             id: '307',
             image: gobstoppers,
-            name: 'Gobstoppers',
+            name: 'Gobstopper',
             price: '10.00',
             description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
             
@@ -76,7 +67,7 @@ const ZOAdata = {
         {
             id: '308',
             image: cptAmMother,
-            name: 'Captain America Paly',
+            name: 'Captain America',
             price: '10.00',
             description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
             
@@ -92,7 +83,7 @@ const ZOAdata = {
         {
             id: '310',
             image: horsMother,
-            name: 'House of the Rising Sun',
+            name: 'Rising Sun',
             price: '20.00',
             description: "Price Per Polyp. If coral is not cut please allow 2 weeks to heal before shipping."
             

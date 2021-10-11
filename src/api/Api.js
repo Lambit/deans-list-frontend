@@ -2,8 +2,6 @@ import axios from "axios";
 
 export const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
-console.log(process.env.REACT_APP_BASE_URL );
-
 
 /** API Class.
  *

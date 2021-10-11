@@ -34,9 +34,8 @@
 
   .payment {
       text-align: center;
-      border: 3px solid #e6dde6;
-      box-shadow: 0 0 10px #5e0fff;
       padding: 1rem;
+      color: #5f43b2;
   }
 
 

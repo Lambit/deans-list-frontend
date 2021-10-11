@@ -78,7 +78,7 @@ const WYSIWYGdata = {
         {
             id: '6',
             image: beautyBeast,
-            name: 'Beauty & The Beast',
+            name: 'Beauty & Beast',
             price: '50.00',
             description: "Two polyps of Beauty & The Beast."
             
@@ -86,7 +86,7 @@ const WYSIWYGdata = {
         {
             id: '7',
             image: beautyBeast2,
-            name: 'Beauty & The Beast',
+            name: 'Beauty & Beast',
             price: '150.00',
             description: "Six polyps of Beauty & The Beast."
             
@@ -94,7 +94,7 @@ const WYSIWYGdata = {
         {
             id: '8',
             image: CBZ,
-            name: 'Caribbean Blue Zoa',
+            name: 'Blue Zoa',
             price: '50.00',
             description: "Seven polyps of Caribbean Blue Zoa."
             

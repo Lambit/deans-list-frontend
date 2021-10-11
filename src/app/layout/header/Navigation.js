@@ -47,7 +47,6 @@ function Navigation({ logout }) {
                   <Nav.Link className='navLinkStyles' as={Link} to="/lps">LPS</Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/sps">SPS</Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/zoas">ZOAS</Nav.Link>
-                  <Nav.Link className='navLinkStyles' as={Link} to="/about">About</Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/cart">
                     Cart: {<button className="badge btn btn-secondary">
                       {cartItems.reduce((acc, item) => acc + item.qty, 0)}</button>}
@@ -85,7 +84,6 @@ function Navigation({ logout }) {
                   <Nav.Link className='navLinkStyles' as={Link} to="/lps">LPS</Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/sps">SPS</Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/zoas">ZOAS</Nav.Link>
-                  <Nav.Link className='navLinkStyles' as={Link} to="/">About</Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/login">Log in </Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/signup">Sign Up </Nav.Link>
                   <Nav.Link className='navLinkStyles' as={Link} to="/cart">Cart: 

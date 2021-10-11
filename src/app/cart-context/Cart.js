@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import CartContext from "./CartContext";
 import { formatCurrency } from '../../hooks/formatCurrency';
 import CheckoutPage from "../../pages/cart-checkout/CheckoutPage";
+import Title from "../title/Title";
 
 import Table from "react-bootstrap/Table";
 import { Button } from 'react-bootstrap';
@@ -26,6 +27,9 @@ export default function Cart() {
 
   return (
     <>
+
+    <Title title='Cart' />
+
       { !checkingOut && 
           <>
           {/* header------------------------------------------- */}

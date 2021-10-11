@@ -14,6 +14,7 @@
 .btn-thank {
     background-color: #5f43b2 !important;
     outline: none !important;
+    padding: 3rem !important;
 }
 .thank-exit {
     text-align: center;

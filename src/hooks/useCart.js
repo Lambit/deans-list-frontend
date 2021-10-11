@@ -1,5 +1,11 @@
 import {useState} from 'react';
 
+/* useCart sets the state of the cart to an empty array, and
+houses functions to be used with in cart. They consist of
+addToCart, subtractFromCart, and remove from cart. All these
+function update the state.
+ */ 
+
 export default function useCart() {
     const [cartItems, setCartItems] = useState([]);
   
