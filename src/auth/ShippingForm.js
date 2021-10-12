@@ -31,10 +31,12 @@ export default function ShippingForm() {
 
   async function handleSubmit(evt) {
     evt.preventDefault();
+      if(formData.success){
       history.push("/thank-you");
+      } else {
+        setFormErrors();
+      }
     }
-  
-    
   
 
   /** Update form data field */
