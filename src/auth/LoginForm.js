@@ -16,8 +16,8 @@ function LoginForm({ login }) {
   const [formErrors, setFormErrors] = useState([]);
 
   console.debug(
-      "LoginForm", 
-      "login=", typeof login,
+      "LoginForm",
+      // "login=", typeof login,
       "formData=", formData,
       "formErrors", formErrors,
   );
@@ -32,10 +32,9 @@ function LoginForm({ login }) {
     let result = await login(formData);
     if (result.success) {
       history.push("/");
-    } 
-    // else {
-    //   setFormErrors(result.errors);
-    // }
+    } else {
+      setFormErrors(result.errors);
+    }
   }
 
   /** Update form data field */
