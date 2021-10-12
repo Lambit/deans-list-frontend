@@ -32,9 +32,10 @@ function LoginForm({ login }) {
     let result = await login(formData);
     if (result.success) {
       history.push("/");
-    } else {
-      setFormErrors(result.errors);
-    }
+    } 
+    // else {
+    //   setFormErrors(result.errors);
+    // }
   }
 
   /** Update form data field */

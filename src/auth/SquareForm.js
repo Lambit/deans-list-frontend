@@ -12,11 +12,6 @@ import {
   import { BASE_URL } from "../api/Api";
   import { SAND_ID, SAND_TOKEN, LOCAL_ID } from "../api/Api";
 
-
-  
-
-  
-
 console.log(SAND_ID, LOCAL_ID, BASE_URL); 
 
 /* Class component for Square payment form, displayed in CheckoutPage.js */ 
@@ -36,7 +31,7 @@ class PaymentPage extends React.Component {
       console.log(errors, nonce, buyerVerificationToken);
       alert("Thank you for your purchase!");
 
-      const request = await fetch(`${BASE_URL}v2/payments`, {
+      const request = await fetch(`${BASE_URL}/v2/payments`, {
       method: 'POST',
       headers: {
 

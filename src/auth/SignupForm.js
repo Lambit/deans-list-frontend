@@ -41,9 +41,10 @@ function SignupForm({ signup }) {
     let result = await signup(formData);
     if (result.success) {
       history.push("/");
-    } else {
-      setFormErrors(result.errors);
     }
+      // } else {
+    //   setFormErrors(result.errors);
+    // }
   }
 
   /** Update form data field */
