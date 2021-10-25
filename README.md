@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# DEAN'S LIST CORAL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dean’s List Coral is an Ecommerce website for marketing and distributing live coral. The goal is to display beautiful healthy coral that consumers can purchase for their home aquariums.
 
-## Available Scripts
 
-In the project directory, you can run:
+# FRONTEND - BUILT WITH  
+
+React
+
+Bootstrap
+
+Reactstrap
+
+Square
+
+React-Square-Payment-Form
+
+(View package.json for the rest of the dependencies.)
+
+
+# GETTING STARTED  
+
+Simply type,
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+in the terminal and the browser will load the page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# OVERVIEW  
 
-### `npm test`
+  In the app folder a layout is created for site wide styles. The layout also holds the navigation as the header and a sticky footer. Layout carries the props children and the function logout to be used within the routes and pages. The routes folder has all the routes for the site; some are displayed on the nav, some aren’t. The sign in and login functions are passed as props to use on specific routes. As well as the coral data that was put together to display the coral being sold. The title folder has a simple function that creates a title for each page of the site. The cart and user context are housed in the app folder to be loaded when the app does. The cart is also stored in the cart context so they could live close to each other. The actual CartPage that is displayed is stored in the pages folder. The App page has functions for current users using local storage as well as login and sign up. These call the front end api to create and find a user's token. The cart and user context are called on the browser router to use across the site, while passing their variables and functions too. Everything within the app folder is to be loaded right away.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  The Api holds everything that interacts with the backend. Such as variables that are stored in an environment, and routes calling the backend. A static class ties together methods used to get and send data to api. The Auth folder holds all of the forms. The Square form does have a fetch request to send data to the backend. The common folder holds some common alerts and the carousel for the homepage. Coral data is all of the pictures and prices put together and used as an object to send throughout the site, as props. The hooks folder contains  useLocalStorage.js to determine the current user. formatCurrency.js is a lone function exported and created to change a number to currency. The useCart holds the cart’s state as well as functions to add, subtract and remove from the cart.They are all returned within useCart. After export, the function is put into the cart context where the whole site can access it.
+    The pages folder has all the pages that are displayed throughout the application. The coral layout is a blueprint for the catalogs that maps over the data and displays everything that's in the coral data object. While the add to cart function is handled on the button. The cart pages use the cart state to display items in the context the add to and subtract to functions in the useCart are imported to be used here. While setting some math to variables, a total price is made and handled by the Square Payment Form. The form is in sandbox mode so the test card that can be used is,
 
-### `npm run build`
+>`4111 1111 1111 1111`
+>>`12/24		373`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Once that is completed, a user is brought to the shipping form,  then to the thank you page, then back to home. Once brought home the cartContext is empty and the user is still logged in. Going back to the terminal, logged statements on payment are in the backend.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# LINKS
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Github project https://github.com/Lambit/deans-list-frontend
+* Heroku https://deans-list-coral.herokuapp.com/
+   
+    
+    
