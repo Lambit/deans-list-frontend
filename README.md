@@ -5,15 +5,15 @@ Dean’s List Coral is an Ecommerce website for marketing and distributing live 
 
 # FRONTEND - BUILT WITH  
 
-React
+* React
 
-Bootstrap
+* Bootstrap
 
-Reactstrap
+* Reactstrap
 
-Square
+* Square
 
-React-Square-Payment-Form
+* React-Square-Payment-Form
 
 (View package.json for the rest of the dependencies.)
 
